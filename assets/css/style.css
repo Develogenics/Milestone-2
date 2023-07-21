@@ -18,6 +18,7 @@ body {
 
 
 
+/* Updated CSS with the required changes */
 nav.navbar {
   position: sticky;
   z-index: 9999;
@@ -26,12 +27,13 @@ nav.navbar {
   color: brown; /* Set your desired text color */
 }
 
-nav.navbar .navbar-toggler {
-  border-color: #fff;
+/* Updated the class name to navbar-toggler */
+.navbar-toggler {
+  border-color: blue; /* Change to a color that contrasts with your background */
 }
 
 nav.navbar .navbar-nav .nav-link {
-  color: black; /* Replace #ff0000 with your desired text color */
+  color: red; /* Replace #ff0000 with your desired text color */
 }
 
 /* Additional styles for dropdown menu */
@@ -46,6 +48,8 @@ nav.navbar .dropdown-item {
 nav.navbar .dropdown-item:hover {
   background-color: yellow; /* Background color on hover */
 }
+
+
 
 
       /* main image content */
